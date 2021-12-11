@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    border-radius: 20px;
+    margin: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin: 0;
+}
+
+.card {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.learn-button {
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 1px solid hsl(0, 0%, 95%);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.learn-button:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsla(0, 0%, 95%, 0);
+    color:hsl(0, 0%, 95%);
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+    #main {
+        max-width: 1000px;
+        max-height: 800px;
+        flex-direction: row;
+    }
+    .card {
+        flex: 1 1 0;
+    }
+}
