@@ -1,8 +1,14 @@
 body {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
     display: flex;
     flex-direction: column;
+    margin: auto;
+    padding: auto;
 }
 
 #main {
